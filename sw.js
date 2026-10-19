@@ -1,7 +1,7 @@
 // Garde l'appli disponible hors connexion. Change le numéro de version après une mise à jour.
-const CACHE = 'pointeuse-v1';
+const CACHE = 'pointeuse-v2';
 const SHELL = ['./', 'index.html', 'firebase-config.js', 'manifest.webmanifest',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
+  'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
