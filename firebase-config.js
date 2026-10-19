@@ -1,11 +1,8 @@
-// Colle ici la configuration de TON projet Firebase
-// (Console Firebase → ⚙️ Paramètres du projet → Vos applications → Configuration du SDK).
-// Remplace tout ce qui est entre les guillemets.
 export const firebaseConfig = {
-  apiKey: "COLLE_ICI_TA_API_KEY",
-  authDomain: "ton-projet.firebaseapp.com",
-  projectId: "ton-projet",
-  storageBucket: "ton-projet.appspot.com",
-  messagingSenderId: "000000000000",
-  appId: "1:000000000000:web:0000000000000000"
+  apiKey: "AIzaSyBtXu5XHlxzw1E04Ze4J_SF5MxaqyQpboQ",
+  authDomain: "nadege-fayard.firebaseapp.com",
+  projectId: "nadege-fayard",
+  storageBucket: "nadege-fayard.firebasestorage.app",
+  messagingSenderId: "392652249989",
+  appId: "1:392652249989:web:281f42f45104488f6142ec"
 };
